@@ -70,7 +70,7 @@ button {
     color: white;
 }
 
-button:hover{
+button:hover {
     background-color: black;
 }
 
@@ -93,7 +93,7 @@ button:hover{
 
 }
 
-.nav-2 ul li a:hover{
+.nav-2 ul li a:hover {
     color: #346CCD;
 }
 
@@ -170,7 +170,7 @@ input:focus-visible {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     color: black;
-    
+
 
 }
 
@@ -192,19 +192,19 @@ input:focus-visible {
     justify-content: center;
     align-items: center;
     padding: 5% 5% 5% 5%;
-    
+
 }
 
 
 
 .section-2-flex {
     display: flex;
-    
+
     flex-wrap: wrap;
     gap: 25px;
     width: 50%;
     justify-content: center;
-   
+
 
 }
 
@@ -261,59 +261,97 @@ input:focus-visible {
     height: 50px;
 
 }
-.description{
+
+.description {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 
 }
-.description .about{
+
+.description .about {
     font-family: 'Inter', sans-serif;
-    color:#346CCD;
+    color: #346CCD;
     font-size: 15px;
     font-weight: 500;
-   
+
 }
-.description .title{
+
+.description .title {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     color: black;
-    
+
 }
-.description p{
+
+.description p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: black;
-  
+
     font-weight: 300;
 }
-.description ul{
+
+.description ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.description ul li{
-   list-style:  none;
-   font-family: 'Inter', sans-serif;
-   font-size: 15px;
-   color: black;
-   font-weight: 400;
-  
+
+.description ul li {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+
 }
-.description ul li i{
+
+.description ul li i {
     color: #346CCD;
 
 }
-.description button{
-  
+
+.description button {
+
     background-color: #346CCD;
- 
-   
+
+
 
 }
-.description button:hover{
+
+.description button:hover {
     color: white;
     background-color: black;
+}
 
+
+/* <!-- ------------container-3--------- -->? */
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #346CCD;
+    padding: 5%;
+}
+
+.Testimonials p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+  
+}
+.Testimonials h4{
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+.Testimonials{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
