@@ -9,6 +9,7 @@
     align-items: center;
     padding: 15px;
     background-color: #346CCD;
+    gap: 25px;
 
 }
 
@@ -16,6 +17,8 @@
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     color: white;
+    
+
 }
 
 nav {
@@ -94,6 +97,7 @@ input {
     border: none;
     border-radius: 5px;
 }
+
 input:focus-visible {
     outline: none !important;
 }
