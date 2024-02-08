@@ -130,6 +130,8 @@ input:focus-visible {
 .iner-container {
     background-image: url(slider-1-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     border-radius: 10px;
 
