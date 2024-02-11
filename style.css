@@ -664,7 +664,7 @@ input:focus-visible {
 
 }
 
-.description {
+.descriptions {
 
     display: flex;
     flex-direction: column;
@@ -673,12 +673,12 @@ input:focus-visible {
 
 }
 
-.description .ul-part {
+.descriptions .ul-part {
     display: inline-flex;
     gap: 10%;
 }
 
-.description .about {
+.descriptions .abouts {
     font-family: 'Inter', sans-serif;
     color: #346CCD;
     font-size: 15px;
@@ -686,7 +686,7 @@ input:focus-visible {
 
 }
 
-.description .title {
+.descriptions .titles {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     color: black;
@@ -694,7 +694,7 @@ input:focus-visible {
 
 }
 
-.description p {
+.descriptions p {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     color: black;
@@ -702,13 +702,13 @@ input:focus-visible {
     font-weight: 400;
 }
 
-.description ul {
+.descriptions ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.description ul li {
+.descriptions ul li {
     list-style: none;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -717,12 +717,12 @@ input:focus-visible {
 
 }
 
-.description ul li i {
+.descriptions ul li i {
     color: #346CCD;
 
 }
 
-.description button {
+.descriptions button {
 
     background-color: #346ccd00;
     border: 1px solid black;
@@ -730,7 +730,7 @@ input:focus-visible {
     border-radius: 50px;
 }
 
-.description button:hover {
+.descriptions button:hover {
     color: white;
     background-color: #346CCD;
     border: none;
